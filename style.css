@@ -227,6 +227,7 @@ body {
 .profile-info p {
     overflow-wrap: break-word;
 }
+
 .profile-info a {
     color: var(--lm-text);
     word-break: break-all;
@@ -250,4 +251,8 @@ body {
 
 .dm-bg-sec {
     background-color: var(--dm-bg-content);
+}
+
+.active {
+    box-shadow: var(--lm-shadow);
 }
