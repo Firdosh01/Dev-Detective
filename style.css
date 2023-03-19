@@ -232,3 +232,23 @@ body {
     color: var(--lm-text);
     word-break: break-all;
 }
+
+.error {
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    right: 10px;
+    top: -25px;
+}
+
+.dm-text {
+    color: var(--dm-text);
+}
+
+.dm-bg {
+    background-color: var(--dm-bg);
+}
+
+.dm-bg-sec {
+    background-color: var(--dm-bg-content);
+}
