@@ -256,3 +256,156 @@ body {
 .active {
     box-shadow: var(--lm-shadow);
 }
+
+
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 573px;
+    }
+
+    .searchbar-container {
+        padding: 10px;
+    }
+
+    #input {
+        font-size: 18px;
+        width: 75%;
+    }
+
+    #input::placeholder {
+        font-size: 18px;
+    }
+
+    .btn-search {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+
+    #app {
+        gap: 24px;
+    }
+
+    .profile-container {
+        padding: 40px;
+    }
+
+    .profile-header {
+        margin-bottom: 0;
+    }
+
+    #avatar {
+        width: 117px;
+    }
+
+    .profile-content {
+        gap: 30px;
+    }
+
+    .profile-info-wrapper {
+        justify-content: center;
+    }
+
+    .profile-name h2 {
+        font-size: 26px;
+    }
+
+    #user {
+        font-size: 16px;
+    }
+
+    #date {
+        font-size: 15px;
+    }
+
+    #bio {
+        font-size: 15px;
+    }
+
+    .error {
+        font-size: 15px;
+        top: -30px;
+    }
+
+    .profile-stats-wrapper {
+        padding: 18px 32px;
+    }
+
+    .profile-stat {
+        text-align: start;
+    }
+
+    .stat-title {
+        font-size: 13px;
+    }
+
+    .stat-value {
+        font-size: 22px;
+    }
+
+    .profile-bottom-wrapper {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .profile-info {
+        width: 47.5%;
+        font-size: 15px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 730px;
+    }
+
+    .profile-container {
+        position: relative;
+    }
+
+    .profile-content {
+        width: 480px;
+        margin-left: auto;
+        gap: 16px;
+    }
+
+    #avatar {
+        position: absolute;
+        left: 0;
+        margin-left: 40px;
+    }
+
+    .profile-info-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .profile-name {
+        gap: 2px;
+    }
+
+    #date {
+        padding-top: 10px;
+    }
+
+    .profile-stats-wrapper {
+        margin: 20px 0;
+    }
+
+    .error {
+        top: 50%;
+        right: 20%;
+        transform: translateY(-50%);
+        font-size: 15px;
+    }
+
+    #input {
+        width: 65%;
+    }
+}
+
+/* DARK MODE */
+::root {}
